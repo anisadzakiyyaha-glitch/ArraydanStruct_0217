@@ -12,3 +12,24 @@ struct orang
     detailAlamat alamat;;
     int umur;
 };
+int main () {
+    orang mhs;
+    // Mengisi data
+    cout << "Mengisi Data" << endl;
+    cout << "Nama : " ;
+    cin >> mhs.nama;
+    cout << "Desa : " ;
+    cin >> mhs.alamat.desa;
+    cout << "Kota : " ;
+    cin >> mhs.alamat.kota;
+    cout << "Umur : " ;
+    cin >> mhs.umur;
+    cout << endl;
+    // Menampilkan data
+    cout << "Menampilkan Data" << endl;
+    cout << "Nama : " << mhs.nama << endl;
+    cout << "Desa : " << mhs.alamat.desa << endl;
+    cout << "Kota : " << mhs.alamat.kota << endl;
+    cout << "Umur : " << mhs.umur << endl;
+
+}
